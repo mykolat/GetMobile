@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'Conv_Helvetica-Bold';
+	src: url('../fonts/Helvetica-Bold.eot');
+	src: local('☺'), url('../fonts/Helvetica-Bold.woff') format('woff'), url('../fonts/Helvetica-Bold.ttf') format('truetype'), url('../fonts/Helvetica-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+// Bootstrap overrides
+//
+// Copy variables from `_variables.scss` to this file to override default values
+// without modifying source files.
+
+$gray-dark:                 #5e5e5e;
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+  sm: 576px,
+  md: 720px,
+  lg: 940px,
+  xl: 1200px
+);
+// @include _assert-ascending($container-max-widths, "$container-max-widths");
